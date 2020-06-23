@@ -1,0 +1,71 @@
+@charset 'UTF-8';
+
+@media only screen and (max-width: 600px){
+    .container {
+        position: absolute;
+    }
+    .revenue > input {
+        
+        width: 50%;
+        height: 30px;
+        font-size: 20px;
+        /* position: relative; */
+        
+    }
+    #rev {
+        width: 70px;
+        height: 40px;
+        font-size: large;
+        font-weight: 100;
+        background: greenyellow;
+    }
+    
+    .revenue {
+       
+        color: #008953;
+        font-size: 25px;
+        /* position: relative; */
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+        .product {
+            color: #008953;
+        font-size: 25px;
+        /* position: relative; */
+        padding-top: 15px;
+        }
+        .product > input { 
+            width: 60%;
+            height: 30px;
+            font-size: 10px;
+            /* position: relative; */
+        }
+        #prod {
+            width: 70px;
+            height: 40px;
+            font-size: large;
+            font-weight: 100;
+            background: greenyellow;
+        }
+        
+        .amount {
+
+            color: #008953;
+            font-size: 25px;
+            /* position: relative; */
+            padding-top: 15px;
+        }
+        .amount > input {
+            width: 60%;
+            height: 40px;
+            font-size: 20px;
+            /* position: relative; */       
+    }
+    #amt {
+        width: 70px;
+        height: 40px;
+        font-size: large;
+        font-weight: 100;
+        background: greenyellow;
+    }
+}

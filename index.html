@@ -1,0 +1,79 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>Budgety App</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Budget Calculator">
+        <meta name="keywords" content="budgety, budget">
+        <meta name="viewpor" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <div >
+                BudTotal: 
+                <p id="budtotal">
+                    <button id="tot">budget
+                    </button>
+                </p>
+                <br>
+                <p id="exptotal">
+                    exptotal
+                    <button id="exp">expense
+
+                    </button>
+                </p>
+            </div>
+
+            <div>
+                <label class="revenue"> Revenue:
+                    <input type="number" id="revenue">
+                        <button id="rev" ><!-- onclick="addBtn()" -->
+                        Submit
+                    </button><br>
+                    <button onclick="go()">go</button>
+                    <div id="budget">
+                        <ul id="list">
+
+                        </ul>
+
+                    </div>
+                </label>
+            </div>
+
+            <div>
+                <!-- <label class="product"> Expense Name
+                    <span>
+                       <input type="text" id="product">
+                    <button id="prod">
+                    </span>
+                        Submit
+                    </button><br>
+                    <div id="productname">
+                        Budget: 
+
+                    </div>
+                </label> -->
+
+                <label class="amount"> Amount:
+                    <input type="number" id="expense">
+                    <button id="amt">
+                        Submit
+                    </button>
+                    <button onclick="goexp()">goexp</button>
+                    <div id="price">Budget: 
+
+                    </div>
+                </label>
+            </div>
+            <div>
+                <input id="bala" type="number" readonly/>
+
+                <button onclick="bal()">bal</button>
+            </div>
+
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>
